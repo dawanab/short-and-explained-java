@@ -1,3 +1,4 @@
+package small_programs;
 // This program is exactly what it seems...a calculator.
 
 public class SimpleCalculator {

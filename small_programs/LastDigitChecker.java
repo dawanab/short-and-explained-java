@@ -1,3 +1,5 @@
+package small_programs;
+
 /* Write a method named hasSameLastDigit with three parameters of type int. 
 Each number should be within the range of 10 (inclusive) - 1000 (inclusive). 
 If one of the numbers is not within the range, the method should return false.
