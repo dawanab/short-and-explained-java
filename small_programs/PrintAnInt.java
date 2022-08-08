@@ -1,3 +1,5 @@
+package small_programs;
+
 // This program will print the integer entered by the user.
 //Import the java Scanner for use in the program.
 import java.util.Scanner;
