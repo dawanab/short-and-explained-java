@@ -1,4 +1,4 @@
-package small_programs;
+package small_programs.mathematical;
 import java.util.Scanner;
 
 public class AddTwoIntegers {

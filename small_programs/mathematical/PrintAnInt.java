@@ -1,4 +1,4 @@
-package small_programs;
+package small_programs.mathematical;
 
 // This program will print the integer entered by the user.
 //Import the java Scanner for use in the program.

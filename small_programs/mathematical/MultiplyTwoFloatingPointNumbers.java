@@ -1,4 +1,4 @@
-package small_programs;
+package small_programs.mathematical;
 
 public class MultiplyTwoFloatingPointNumbers {
     
