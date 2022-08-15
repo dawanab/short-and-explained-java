@@ -3,5 +3,6 @@ Introduction_Notes.txt
 InheritancePolymorphismNotes.txt
 Variables_Notes.txt
 Manipulating_Variables.txt
-inheritance_polymorphism
+inheritancepolymorphism
 **/*.class
+.vscode
