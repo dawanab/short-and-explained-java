@@ -1,5 +1,3 @@
-package small_programs.entertainment;
-
 /* This program generates a mad libbed story. */
 
 public class MadLibs {
