@@ -1,3 +1,5 @@
+package small_programs;
+
 /* This program generates a mad libbed story. */
 
 public class MadLibs {
