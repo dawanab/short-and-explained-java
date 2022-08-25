@@ -1,0 +1,70 @@
+Learn Java Methods:
+
+🔴 Introduction -------------------------------------------------------------->
+    >  We give objects state through instance variables. We give them behavior
+    by using methods. 
+
+    > Methods are repeatable, modular blocks of code used to accomplish specific 
+    tasks. 
+    > Through method decomposition, we can use methods to break down a large 
+    problem into smaller, more manageable problems. 
+    > Procedural abstraction - knowing what a method does, but not how it
+    accomplishes it. 
+
+
+🔴 Defininng Methods --------------------------------------------------------->
+    > The method declaration gives the program some information about the method:
+        >>> public: other classes can access this method.
+        >>> void: means there is no specific output from the method
+        >>> checkBalance(): the name of the method
+
+    > Each method has its own unique method signiture which is comprised of the 
+    method's name and its parameter type. 
+
+
+🔴 Calling Methods ------------------------------------------------------------>
+    > When we add a non-static method to a class, it becomes available to use on 
+    an object of that class. 
+
+    > First we reference our object, then we use dot notation to call the method.
+    We must use the parentheses in order to call it. 
+
+
+🔴 Scope ---------------------------------------------------------------------->
+    > Everything between the curly braces {} is called the scope of a method. 
+
+
+🔴 Adding Parameters ---------------------------------------------------------->
+    > Adding parameter values impacts our method's signature. 
+
+    > Through method overloading, our Java programs can contain multiple methods 
+    with the same name as long as each method's parameter list is unique. 
+
+
+🔴 Reassigning Instance Fields ------------------------------------------------>
+    > Changing instance fields is how we change the state of an object and 
+    make our objects more flexible and realistic. 
+
+
+🔴 Returns -------------------------------------------------------------------->
+    > Variables can only exisit in the scope that they we declared in. 
+    > We can use a value outside of the method it was created in if we return 
+    it from the method.
+
+    > The void keyword indicates that no value is returnd after calling that
+    method. 
+    > A non-void method returns a value when it is called.
+
+    > If the return expression is compatible with the return type, a copy of 
+    that value gets returned in a process known as return by value. 
+
+    > Returning an object works a little differently than returning a primitive 
+    value. 
+    > When we return a primitive value, a copy of the value is returned 
+    > When we return an object, we return a reference to the object instead 
+    of a copy of it. 
+
+
+🔴 The toString() Method ------------------------------------------------------>
+    > When we define a toString() method for a class, we can return a String 
+    that will print when we print the object. 

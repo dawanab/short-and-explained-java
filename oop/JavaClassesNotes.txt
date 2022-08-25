@@ -1,0 +1,101 @@
+🟣 Introduction to Classes -------------------------------------------------->
+    > Object oriented programming are programs that are built around objects 
+    and their interactions. An object contains state and behavior. 
+
+    > Classes are a bleprint for objects. Blueprints detail the general
+    structure.
+        >>>  it's the set of instructions that describe how an instance 
+        can behave and what information it contains.
+
+
+🟣 Constructors ------------------------------------------------------------->
+    > In order to create an object (instance of a class), we need a constructor 
+    method. 
+
+    > To create an instance, we need to call or invoke the constructor within 
+    main(). 
+
+    > Instead of being declared with a primitive data type, when we create an 
+    instance of a class, we declare it as a reference data type. This means 
+    that the value of our variable is a reference to an instance's memory 
+    address. 
+        >>> After the assignment operator (=), we invoke the constructor method 
+        and use the keyword 'new' to indicate that we're creating an instance.
+
+
+🟣 Instance Fields ---------------------------------------------------------->
+    > When an object is created, the constructor sets the initial state of the 
+    object. The state is made up of associated data that represents the 
+    characteristics of an object. 
+        >>> We add data to an object by using instance variables, or 
+        instance fields.
+
+    > Often times, instance variables have a 'has-a' relationship
+    with the object. Another way to think of it is that instance variables 
+    are the nouns and adjectives associated with an object. 
+
+    > The instance variable will be available for assignment inside of the 
+    constructor. 
+
+    > Fields are a type of state that each instance will possess. It's the 
+    job of the constructor to give these instance fields initial value. 
+
+
+🟣 Constructor Parameters ---------------------------------------------------->
+    > To create objects with dynamic and individual states, we use a mix of 
+    both the constructor and the instance fields. 
+
+    > In order to assign a value to an instance variable, we need to alter the 
+    constructor to include parameters so that it can access the data that we 
+    want to assign to an instance. 
+        >>> public Car(String carColor){ color = carColor}
+        >>> When a string value is passed into the constructor, carColor will 
+        be assigned as the value to the instance variable color. 
+
+    > There are two types of parameters: actual and formal
+        1. formal parameters - specifies the type and name of data that can be 
+        passed into a method.
+            >>> because of constructor overloading, a class can have multiple 
+            constructors as long as they have different parameter values; the
+            signature is useful because it helps the compiler differentiate
+            between the different methods based on the values we pass to it. 
+
+        2. formal parameters - refers to the value being passed during a 
+        method call. Call by value is the process of calling a method with an 
+        argument value. 
+
+    > If we do not define a construtor, Java will provide a default constructor 
+    that contains no arguments and assigns the object default values. Default 
+    values can be created by assigning values to the instance fields during 
+    their declaration. 
+
+
+🟣 Assigning Values to Instance Fields --------------------------------------->
+    > Values that are passed to a method call are referred to as arguments. 
+    Once they are passed in, they will be used to give the instance fields
+    initial value. 
+    > We access the value of this field with the dot operator. 
+
+
+🟣 Multiple Fields ----------------------------------------------------------->
+    > Objects are not limited to a single instance field. We can delcare as 
+    many fields as are necessary for the program's requirements. 
+
+    > The order of the parameters matters. We must pass values into the 
+    constructor invocation in the same order that they're listed in the 
+    parameters. 
+
+
+🟣 Objects as Parameters ->
+    > If we use an object as a parameter for a construtor method, it's best 
+    practice to not modify the object unless necessary. If you do have to 
+    modify the obejct, you should set the instance variable to hold a copy 
+    of the referenced object instead of the original object. 
+
+    > When an object is sent as an argument, the value sent to the parameter is a reference to the original object and not a copy of the original object; therefore, whenever we make a change to our parameter object, we are also making a change to our original object. Note that this doesn’t happen with primitive values because the parameter value is initialized with a copy of the argument value.
+  
+    > One way to create a copy of an object is to make a copy constructor. The copy constructor is an additional class constructor; remember, a class can have multiple constructors as long as each constructor has its own unique signature. Copy constructors create a copy of an object by taking in an object and setting the values of the new object to the same values of the parameter object.
+
+
+> A signature consists of the construtor's name and the data type and name 
+of each of its parameters. 
